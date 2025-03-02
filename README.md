@@ -39,6 +39,8 @@ DB_PASS = ""
 DB_HOST = "" 
 DB_PORT = "" 
 
+```
+
 ## Functions
 
 ### `upload_files_to_sftp(file_name, dest_file_path)`
