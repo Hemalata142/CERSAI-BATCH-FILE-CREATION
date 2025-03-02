@@ -102,6 +102,8 @@ def main():
         upload_processed_and_delete_file_from_sftp(f"{file}", f"{processed_file_path}/{file}", sftp, f"{remote_file_path}/{file}") 
         sftp.close() 
 
+```
+
 ## File Flow
 1. The script starts by listing the files in the remote directory.
 2. It then downloads each file to the local machine.
