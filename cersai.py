@@ -52,8 +52,8 @@ def get_file_name():
     print(current_time) 
     print(today) 
     
-    #CRS_JC059_012039_YYYYMMDDHHMMSS 
-    output_filename = f"CRS_JC059_012039_{current_time}.dat" 
+    #CRS_JC123_456789_YYYYMMDDHHMMSS 
+    output_filename = f"CRS_JC123_456789_{current_time}.dat" 
     print(output_filename) 
     return output_filename 
 
