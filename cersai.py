@@ -8,20 +8,26 @@ from thefuzz import fuzz
 import pandas as pd 
 from unidecode import unidecode 
 
-host = '' 
-port = ''
-username = '' 
-password = '' 
 
-remote_file_path = "" 
-processed_file_path = "" 
-output_file_path = "" 
+#SFTP CREDENTIALS
+host = 'your_sftp_host'
+port = your_sftp_port
+username = 'your_username'
+password = 'your_password' 
 
-DB_NAME = "" 
-DB_USER = "" 
-DB_PASS = "" 
-DB_HOST = "" 
-DB_PORT = "" 
+#SFTP PATHS
+remote_file_path = "path/to/remote/files"
+processed_file_path = "path/to/processed/files"
+output_file_path = "path/to/output/files"
+
+
+#ADATABASE CONFIGURATION (NOT REQUIRED)
+DB_NAME = "your_db_name"
+DB_USER = "your_db_user"
+DB_PASS = "your_db_password"
+DB_HOST = "your_db_host"
+DB_PORT = "your_db_port"
+
 
 current_date_time = datetime.datetime.now() 
 current_date_time = current_date_time.strftime("%Y_%m_%d") 
